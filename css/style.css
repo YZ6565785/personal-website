@@ -2,7 +2,7 @@ body {
     margin: 0px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-
+    width: 100%;
 }
 
 p {
@@ -11,8 +11,13 @@ p {
 
 a {
     font-size: 1rem;
+
+}
+
+.footer-link {
     font-family: 'Ubuntu', sans-serif;
     margin: auto 16px auto 16px;
+    margin: auto;
 }
 
 hr {
@@ -69,6 +74,11 @@ h3 {
     padding-top: 150px;
 }
 
+.intro {
+    width: 75%;
+    margin: auto;
+    line-height: 2;
+}
 .middle-container {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -79,6 +89,7 @@ h3 {
 .bottom-container {
     background-color: #e4e4e4;
     padding: 1rem;
+
 }
 
 .copyright {
