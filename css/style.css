@@ -11,22 +11,25 @@ p {
 
 a {
     font-size: 1rem;
+    text-decoration: none;
 
 }
-
+a:hover {
+    color: #AAAAF6;
+}
 .footer-link {
     font-family: 'Ubuntu', sans-serif;
-    margin: auto 16px auto 16px;
-    margin: auto;
+    margin: auto 16px auto 16px;I graduated from QMUL with First Class Honours in Computer Science. I ❤️ Movie 🎥, Hip-hop Music 🎵, Games 🎮, Technology 🖥, etc.
+
 }
 
 hr {
-    margin-block-start: 40px;
-    margin-block-end: 40px;
+
     width: 5%;
     border-style: dotted none none;
     border-width: 5px;
     border-color: grey;
+    margin: 100px auto 100px auto;
 }
 
 h1 {
@@ -75,7 +78,7 @@ h3 {
 }
 
 .intro {
-    width: 75%;
+    width: 50%;
     margin: auto;
     line-height: 2;
 }
@@ -86,6 +89,11 @@ h3 {
     margin: auto;
 }
 
+.contact-msg {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 40px;
+}
 .bottom-container {
     background-color: #e4e4e4;
     padding: 1rem;
