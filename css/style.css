@@ -139,45 +139,6 @@ h3 {
     margin-left: 30px;
 }
 
-.BUTTON_VRR {
-    background: #525B7E;
-    background-image: -webkit-linear-gradient(top, #525B7E, #363636);
-    background-image: -moz-linear-gradient(top, #525B7E, #363636);
-    background-image: -ms-linear-gradient(top, #525B7E, #363636);
-    background-image: -o-linear-gradient(top, #525B7E, #363636);
-    background-image: linear-gradient(to bottom, #525B7E, #363636);
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    color: #FFFFFF;
-    font-family: Open Sans;
-    font-size: 16px;
-    font-weight: 100;
-    padding: 10px;
-    box-shadow: 1px 1px 20px 0px #000000;
-    -webkit-box-shadow: 1px 1px 20px 0px #000000;
-    -moz-box-shadow: 1px 1px 20px 0px #000000;
-    text-shadow: 1px 1px 20px #000000;
-    border: solid #383E56 1px;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-}
-
-.BUTTON_VRR:hover {
-    border: solid #363636 1px;
-    background: #363636;
-    background-image: -webkit-linear-gradient(top, #363636, #525B7E);
-    background-image: -moz-linear-gradient(top, #363636, #525B7E);
-    background-image: -ms-linear-gradient(top, #363636, #525B7E);
-    background-image: -o-linear-gradient(top, #363636, #525B7E);
-    background-image: linear-gradient(to bottom, #363636, #525B7E);
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-}
 
 @media (max-width: 600px) {
     hr {
@@ -193,8 +154,8 @@ h3 {
 
     .mid-heading {
         font-size: 1.6666rem;
-        margin-top: 20%;
-        margin-bottom: 20%;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
 
     .mountain-img {
